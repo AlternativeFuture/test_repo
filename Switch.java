@@ -8,16 +8,16 @@ public class Switch {
         System.out.print("Input number_");
         int inputNum = scanner.nextInt();
 
-        int num = (inputNum + 45) /45 ;
+        int num = (inputNum + 100) /100 ;
         switch (num) {
             case 1:
-                System.out.println("Input number is in range 0-44.");
+                System.out.println("Input number is in range 0-99.");
                 break;
             case 2:
-                System.out.println("Input number is in range 45-89.");
+                System.out.println("Input number is in range 100-199.");
                 break;
             case 3:
-                System.out.println("Input number is in range 90-134.");
+                System.out.println("Input number is in range 200-299.");
                 break;
             default:
                 System.out.println("Out of range.");
